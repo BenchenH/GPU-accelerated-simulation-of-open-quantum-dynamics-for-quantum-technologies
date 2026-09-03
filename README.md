@@ -38,7 +38,7 @@ Complimentary access to temporary AWS accounts is provided during the tutorial.
 
 The tutorial runs in **two 90-minute sessions with a lunch break in between**.
 
-### Session 1 — foundations and simulation
+### Session 1
 
 | Slot | Content |
 |---|---|
@@ -48,7 +48,7 @@ The tutorial runs in **two 90-minute sessions with a lunch break in between**.
 
 ---
 
-### Session 2 — applications on AWS and validation on hardware
+### Session 2
 
 | Slot | Content |
 |---|---|
