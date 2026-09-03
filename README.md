@@ -27,7 +27,6 @@ Students, researchers, and engineers in computer science, quantum computing, qua
 ## What you'll leave with
 
 - Working code that runs single-qubit gate simulations in **CUDA-Q Dynamics** and **QuTiP**.
-- A reproducible **CPU vs GPU** benchmark for open-system dynamics on cloud infrastructure.
 - A pulse-level experiment on a real superconducting QPU accessed through **Amazon Braket**.
 - A complete set of Jupyter notebooks you can adapt to your own hardware-design workflows.
 
@@ -44,8 +43,8 @@ The tutorial runs in **two 90-minute sessions with a lunch break in between**.
 | Slot | Content |
 |---|---|
 | **20 min** | **Presentation:** Tutorial overview<br>• Overview of AWS services and tools<br>• Access Workshop Studio accounts |
-| **30 min** | **Presentation:** Open quantum systems basics<br>• Brief review of open quantum dynamics<br>• Introduction to the superconducting qubit |
-| **30 min** | **Hands-on lab:** Modeling superconducting qubits using CUDA-Q Dynamics<br>• Introduction to CUDA-Q Dynamics |
+| **20 min** | **Hands-on lab:** Setting up a AWS PCS cluster |
+| **40 min** | **Hands-on lab:** Modeling superconducting qubits using CUDA-Q Dynamics<br>• Brief review of open quantum dynamics<br>• Introduction to CUDA-Q Dynamics |
 
 ---
 
@@ -53,9 +52,9 @@ The tutorial runs in **two 90-minute sessions with a lunch break in between**.
 
 | Slot | Content |
 |---|---|
-| **20 min** | **Presentation:** Introduction to Amazon Braket |
-| **40 min** | **Hands-on lab:** Optimizing single-qubit rotation pulse sequences<br>• Introduction to QuTiP<br>• Comparing Gaussian vs DRAG pulse schemes in single-qubit rotation<br>• Validation on a real superconducting QPU on Amazon Braket |
-| **20 min** | **Hands-on lab:** Optimizing drive strength in dispersive readout<br>• CPU vs GPU runtime benchmarks |
+| **10 min** | **Presentation:** Introduction to pulse optimization for transmon qubit |
+| **50 min** | **Hands-on lab:** Optimizing single-qubit rotation pulse sequences<br>• Introduction to QuTiP<br>• Comparing Gaussian vs DRAG pulse schemes in single-qubit rotation<br>• Gate duration sweep using AWS PCS |
+| **20 min** | **Hands-on lab:** Validation on a real superconducting QPU on Amazon Braket |
 
 ---
 
@@ -76,7 +75,6 @@ Over the course of the tutorial, you will:
 1. **Simulate a driven transmon** in CUDA-Q Dynamics — the standard superconducting qubit model.
 2. **Design single-qubit gates in QuTiP.** Compare Gaussian and DRAG pulse shapes, understand the leakage-vs-decoherence tradeoff, and identify the pulse-design regime hardware manufacturers use in production.
 3. **Verify your design on real hardware.** Submit an Amazon Braket hybrid job to a Rigetti Cepheus superconducting QPU, comparing custom pulse sequences at the pulse level.
-4. **Optimize dispersive readout** by exploring the weak-vs-strong-drive tradeoff. Benchmark the same simulation on CPU vs GPU.
 
 The tutorial's physics is honest to modern superconducting quantum hardware — parameter choices match those used at IBM, Google, Rigetti, and Amazon Braket-accessible devices.
 
